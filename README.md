@@ -1,1 +1,7 @@
-# labirentoyunu
+# YETENEK OYUNU
+Oyunu başlattığımızda karşımıza ilk önce bir MENÜ ekranı çıkmaktadır. Oyuncu bu ekrandan OYUNA BAŞLA butonuna tıklayarak direkt oyuna başlayabilir ya da KURALLAR BUTONUNA tıklayarak oyun kurallarını okuyabilir. Kurallar ekranına geldiğinde GERİ tuşuna basarak tekrar MENÜ sahnesine dönebilir. 
+Oyun başlangıcında bir adet labirent vardır. Oyuncu top nesnesini yön tuşlarını ya da A,S,D,W tuşlarını kullanarak labirentin çıkışına 60 saniye içinde ulaşmalıdır. Ayrıca labirentin içinde bulunan farklı renkte olan nesnelerin sıralarını hafızasında tutmalıdır. Bu sahne ile oyuncunun hem dikkati hem de el becerisi ölçülmektedir.
+Labirentin sonunda bulunan kırmızı nesneye top çarptığı an, oyun bitiş paneli karşımıza çıkar ve panel üzerindeki SIRADAKİ AŞAMAYA GEÇ butonu ile sonraki sahneye geçilir. 
+OYUN2 sahnesinde bizi bir panel karşılıyor. Bu panelde labirentin içindeki nesnelerin renkleriyle ilgili sorular var. Oyuncu hafızasını kullanarak sorulara DOĞRU ya da YANLIŞ butonuyla cevap verecek. Oyuncunun verdiği her doğru cevap 10 puan niteliğindedir.
+Sorular bittiğinde yine bir panel açılır. Bu panelde kaç soruya doğru, kaç soruya yanlış cevap verildiği ve oyuncunun toplam puanı gösterilir. Daha sonra yine açılan panel üzerinde bulunan SIRADAKİ AŞAMAYA GEÇ butonu ile son sahneye geçilir.
+Son sahnede bir matematiksel işlem sorusu vardır ve 30 puan niteliğindedir. Oyundaki 3 farklı simgenin değeri vardır ve işlemlere göre bu değeri bulup en altta soru işareti olan yere yazılmalıdır. Değer yazıldıktan sonra kontrol et butonuna tıklanır, sonuç doğruysa tik, yanlışsa çarpı işareti ekranda belirir. Simgenin üzerine tıklanır ve OYUN BİTTİ  ekranına gelinir.
